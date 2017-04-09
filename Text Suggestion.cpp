@@ -1,7 +1,7 @@
 // Text Suggestion.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
+#include <iostream>
 #include <string>
 #include<fstream>
 using namespace std;
@@ -14,7 +14,7 @@ int main()
 	cin >> term;
 
 	//open a file in read mode
-	ifstream input("C:\\Users\\Anirudh\\Documents\\Visual Studio 2015\\Projects\\Text Suggestion\\Text Suggestion\\store.txt");
+	ifstream input("store.txt");
 
 	//repeat till something is output
 	if(input.is_open())
